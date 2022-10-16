@@ -2,14 +2,9 @@
 
 ### 文件结构
 ```
-├── pytorch_classifications  图像分类模型
-    └── Test1_official_demo  本代码是一个pytorch官网的一个demo
-├── pytorch_object_detection 目标检测模型    
-    ├── faster_rcnn
-    └── yolov3_spp
-└── tensorflow_classification
-    ├── Test2_alexnet
-    ├── Test3_vgg
-    ├── Test4_googlenet
-    └── Test5_resnet
+├── 1D_tensorflow  (tensorflow中的一些常用的1D函数)
+    ├── attention_module
+        ├── simam.py simam模块
+        └── cbam.py cbam模块
+    └── spp_sppf.py 总共有spp和sppf两个函数，效果是一样的，但是sppf计算速度更快
 ```
